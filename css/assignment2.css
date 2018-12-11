@@ -1,0 +1,133 @@
+    body {
+        margin: 0;
+      }
+      
+    header {
+        background: purple;
+        width: 100%;
+        position: fixed;
+        height: 30px;
+          }
+
+    .header-links{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color:  #8f9296;
+            font-size: 20px;
+            margin: 5px;
+            word-spacing: 10px;
+         }
+
+  
+       /* heroimage code  */
+
+    .heroimage{
+        display: flex;
+        background-image: url(../images/oldtrafford3.jpg);
+        background-position: center;
+        background-size: 100%; 
+        width: 100%;
+        height:auto;
+        padding-top: 270px;
+        background-repeat: no-repeat;
+    }
+
+   .heroimage blockquote p{
+        font-size: 20px;
+        font-style: italic;
+        color: red;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+    }
+     
+       /* heroimage code ends  */
+
+       /* main content code  */
+
+    section{
+          padding-top: 40px;
+           display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          background-color:black;
+      }
+    
+    h2 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+     
+    article {
+        padding: 10px;
+        margin: 10px;
+        background-color:blue;
+        flex: 300px;
+      }
+
+      /* main content code ends  */
+      
+        /* main footer  */  
+
+    .footer-distributed{                                   
+
+        background-color: #292c2f;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: normal 16px sans-serif;
+        flex-shrink: 0;   
+        padding: 45px 50px;
+        margin-top: 80px;
+    }
+    
+    .footer-distributed .footer-left p{
+        color:  #8f9296;
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    
+/* footer links */
+
+
+    .footer-distributed p.footer-links{
+        font-size:18px;
+        font-weight: bold;
+        color:  #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    
+    .footer-distributed p.footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+    
+    .footer-distributed .footer-right{
+        float: right;
+        margin-top: 6px;
+        max-width: 180px;
+    }
+    
+    .footer-distributed .footer-right a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background-color:  #33383b;
+        border-radius: 2px;
+    
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+    
+        margin-left: 3px;
+    }
+    
